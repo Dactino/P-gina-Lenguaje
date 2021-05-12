@@ -1,0 +1,36 @@
+body div:last-of-type{
+    left: 0; bottom: 0; right: 0; color: rgb(77, 77, 77);
+    border: 0px; width: 101%;  clear: bottom;
+    background-color: rgb(211, 211, 211);text-align: center;
+    height: 20vh; position: absolute;
+    float: left; clear: bottom;
+}
+div:last-of-type p{
+    margin: 0 auto;
+}
+div:last-of-type  p:nth-child(1){
+    font-weight: bolder; font-size: 120%;
+}
+div:last-of-type  p:nth-child(2){
+    font-weight: lighter; font-size: 90%;
+}
+fieldset input{
+    border: 0; width: 60%; border-radius: 10vh;
+} 
+div:last-of-type form fieldset{
+    background-color: rgb(255, 254, 254); border-radius: 10vh; 
+    width: 30%;border: 0;margin:0 auto; text-align: center;margin-top: 1%;
+    
+}
+div:last-of-type form fieldset button{
+    border-radius: 10vh;background: linear-gradient(#d8d8d8, #c1c1c1);height: 4vh; width: 20%;float: right;
+}
+div:last-of-type form fieldset button:hover{
+    border-radius: 20vh;background: linear-gradient(grey, white);
+}
+div:last-of-type form fieldset :active{
+    border-radius: 20vh;background: linear-gradient(white, grey);
+}
+div:last-of-type form fieldset button:visited{
+    border-radius: 20vh;background: linear-gradient(rgb(231, 14, 14), grey);
+}

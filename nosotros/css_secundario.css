@@ -1,0 +1,34 @@
+
+
+div.submenu{
+    background: url(fondo.jpg); width: 86%;height: 20vh; background-repeat: no-repeat; background-size: cover; margin-top: 0 auto;
+    color: white; padding-top: 10vh; padding-left: 15%; padding-bottom: 5vh;float: left; left: 0; 
+}
+div.submenu table{
+    border: 0; width: 50%; height: 10vh; margin-left: 2vh; font-size: larger; 
+}
+div.submenu table tr{
+    width: 30%;
+}
+td{
+    visibility: hidden; 
+}
+td:nth-child(1), td:nth-child(2),td:nth-child(3){
+    visibility: visible; 
+}
+div.texto{
+    float: left; margin-left: 1%;
+}
+div.texto p{
+    margin-left: 1%; font-size: 120%; margin-right: 5%;margin-bottom: 1%;
+}
+div.texto h1{
+    margin-top: 1%; margin-bottom: 1%;
+}
+a{
+    color: white;
+}
+hr{color: darkgray;}
+
+
+
