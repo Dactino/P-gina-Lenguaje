@@ -1,0 +1,18 @@
+.imagen {
+    content: url(logoPri.jpg);
+    height: 10vh;
+    width: 30%;
+    float: right;
+    top: 0;
+
+    z-index: 1;
+}
+   
+.imagen:hover {
+    content: url(logoSec.jpg);
+    height: 10vh;
+    width: 30%;
+    float: right;
+    top: 0;
+    z-index: 1;
+}

@@ -6,7 +6,7 @@ body{
 
 div:nth-of-type(1)  {
     display: block;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
     margin-left:0%;
     position: fixed;
@@ -25,9 +25,23 @@ div:nth-of-type(1) ul {
 }
 
 div:nth-of-type(1) li {
-    float:left; width: 20%; height: 8vh;
+    float:left; width: 20%; height: 4vh; font-size: 50%;
 }
-
+#imagen {
+    content: url(logoPri.jpg);
+    height: 40vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+   
+#imagen:hover {
+    content: url(logoSec.jpg);
+    height: 40vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
 div:nth-of-type(1) a {
     float:left;
     padding: .8em 1.5em;
@@ -53,19 +67,19 @@ div:nth-of-type(1) a:hover, nav a:focus {
 }
 
 img.casa{
-    content: url("casa.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%; 
+    content: url("casa.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%; visibility: hidden;
 }
 img.quimica{
-    content: url("quimica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%; 
+    content: url("quimica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%;  visibility: hidden;
 }
 img.fisica{
-    content: url("fisicacuantica.png");margin-left: 1%;float: left;margin-right: 2%;width: 7%; 
+    content: url("fisicacuantica.png");margin-left: 1%;float: left;margin-right: 2%;width: 7%;  visibility: hidden;
 }
 img.astronomia{
-    content: url("astronomia.png");margin-left: 1%;float: left;margin-right: 2%;width: 14%; 
+    content: url("astronomia.png");margin-left: 1%;float: left;margin-right: 2%;width: 14%;  visibility: hidden;
 }
 img.nosotros{
-    content: url("informatica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%; 
+    content: url("informatica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%;  visibility: hidden;
 }
 
 header {
