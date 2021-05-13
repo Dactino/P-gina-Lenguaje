@@ -11,7 +11,7 @@ div:nth-of-type(1)  {
     margin-left:0%;
     position: fixed;
     top: 0;
-  
+    height: 9vh;
 }
 
 div:nth-of-type(1) ul {
