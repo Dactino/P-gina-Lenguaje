@@ -31,4 +31,55 @@ a{
 hr{color: darkgray;}
 
 
+/* Animacion Tierra*/
+section{
+    background: none;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    clear: bottom;
+}
+.planeta {
+    background: none;
+    background-color: none;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .planeta, .planeta .tierra{
+    height: 10vh;
+    width: 10vh;
+    background: none;
+    background-color: none;
+  }
+
+  .planeta:hover {
+    animation-name: planeta;
+    animation-name: luna;
+    background: none;
+    background-color: none;
+  }
+
+  @keyframes planeta {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .luna{
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 5vh;
+    width: 5vh;
+    background: none;
+    background-color: none;
+  }
+  @keyframes luna{
+    100% { 
+      transform: rotate(-360deg);
+    }
+  }
 

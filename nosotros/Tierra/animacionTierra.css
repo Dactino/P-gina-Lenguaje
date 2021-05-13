@@ -1,0 +1,38 @@
+
+/* Animacion Tierra*/
+.planeta {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .planeta, .planeta .tierra{
+    height: 10vh;
+    width: 10vh;
+  }
+
+  .planeta:hover {
+    animation-name: planeta;
+    animation-name: luna;
+  }
+
+  @keyframes planeta {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .luna{
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 5vh;
+    width: 5vh;
+  }
+  @keyframes luna{
+    100% { 
+      transform: rotate(-360deg);
+    }
+  }

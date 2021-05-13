@@ -1,0 +1,154 @@
+
+  body {
+    background-color: rgb(116, 114, 114);;
+}
+
+.planta-nuclear {
+    position: relative;
+    margin: 10em auto;
+    width: 13em;
+    height: 10em;
+    overflow-y: hidden;
+}
+
+.planta-nuclear .torre,
+.planta-nuclear .conexion,
+.planta-nuclear .reactor,
+.planta-nuclear .antena,
+.planta-nuclear .vapor {
+    position: absolute;
+    bottom: 0;
+}
+
+.planta-nuclear .torre {
+    width: 3em;
+    border: 1.5em solid transparent;
+    border-bottom: 6em solid #fff;
+}
+
+.planta-nuclear .torre:before,
+.planta-nuclear .torre:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: -4em;
+    width: 1.5em;
+    height: 10em;
+    background-color: rgb(116, 114, 114);;
+}
+
+.planta-nuclear .torre:before {
+    left: -1.5em;
+    border-radius: 0 1.5em 50% 0;
+}
+
+.planta-nuclear .torre:after {
+    left: 3em;
+    border-radius: 1.5em 0 0 50%;
+}
+
+.planta-nuclear .conexion {
+    right: 1.5em;
+    bottom: 0.4em;
+    width: 7em;
+    height: 0.2em;
+    border-width: 0.2em 0;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.planta-nuclear .reactor {
+    left: 6.5em;
+    top: 6em;
+    width: 4em;
+    height: 4em;
+    background-color: #fff;
+    border-radius: 50% 50% 0 0;
+}
+
+.planta-nuclear .reactor:before,
+.planta-nuclear .reactor:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.planta-nuclear .reactor:before {
+    left: 0.75em;
+    top: 0.75em;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #333;
+}
+
+.planta-nuclear .reactor:after {
+    left: 1em;
+    top: 1em;
+    border-width: 1em;
+    border-style: solid;
+    border-color: #fff #333;
+    animation: 2s giro linear infinite;
+}
+
+.planta-nuclear .antena{
+    left: 11.5em;
+    width: 1em;
+    height: 10em;
+    background-color: #fff;
+}
+
+.planta-nuclear .antena:before,
+.planta-nuclear .antena:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: #c0392b;
+}
+
+.planta-nuclear .antena:before {
+    top: 22.5%;
+}
+
+.planta-nuclear .antena:after {
+    top: 62.5%;
+}
+
+.planta-nuclear .vapor {
+    left: 2em;
+    top: 0.3em;
+    width: 2.1em;
+    height: 3.4em;
+    animation: 1.5s pestañeo linear infinite;
+}
+
+.planta-nuclear .vapor:before,
+.planta-nuclear .vapor:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 0.3em;
+    height: 100%;
+    border-width: 0 0.3em;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.planta-nuclear .vapor:after {
+    right: 0;
+}
+
+@keyframes giro {
+    to {
+      transform: rotate(-360deg);
+    }
+}
+
+@keyframes pestañeo {
+    50% {
+      opacity: 0.2;
+    }
+}
+  
