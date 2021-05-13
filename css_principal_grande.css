@@ -14,13 +14,10 @@ div:nth-of-type(1)  {
   
 }
 ul.menu li:nth-child(1) a{
-    font-size: 150%; opacity: 100;
+    font-size: 120%; opacity: 100;
 }
 ul.menu li:nth-child(1) a:hover{
-    background-color: #eee; font-size: 200%; opacity: 100;
-}
-ul.menu li:nth-child(1) a:visited{
-    background-color: rgb(182, 182, 182); font-size: 150%; opacity: 100;
+    font-size: 150%; opacity: 100;
 }
 #imagen {
     content: url(logoPri.jpg);
