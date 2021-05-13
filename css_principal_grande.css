@@ -69,19 +69,19 @@ div:nth-of-type(1) a:hover, nav a:focus {
 }
 
 img.casa{
-    content: url("casa.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%; visibility: visible;
+    content: url("imagenes_menu/casa.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%; visibility: visible;
 }
 img.quimica{
-    content: url("quimica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%;  visibility: visible;
+    content: url("imagenes_menu/quimica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%;  visibility: visible;
 }
 img.fisica{
-    content: url("fisicacuantica.png");margin-left: 1%;float: left;margin-right: 2%;width: 7%;  visibility: visible;
+    content: url("imagenes_menu/fisicacuantica.png");margin-left: 1%;float: left;margin-right: 2%;width: 7%;  visibility: visible;
 }
 img.astronomia{
-    content: url("astronomia.png");margin-left: 1%;float: left;margin-right: 2%;width: 14%;  visibility: visible;
+    content: url("imagenes_menu/astronomia.png");margin-left: 1%;float: left;margin-right: 2%;width: 14%;  visibility: visible;
 }
 img.nosotros{
-    content: url("informatica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%;  visibility: visible;
+    content: url("imagenes_menu/informatica.png");margin-left: 1%;float: left;margin-right: 2%;width: 8%;  visibility: visible;
 }
 
 header {
